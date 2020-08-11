@@ -1,4 +1,5 @@
 <?php 
+    include "../app/configuracao.php";
     include '../app/Libraries/Rota.php';
     include '../app/Libraries/Controller.php';
     include '../app/Controllers/Paginas.php';
@@ -8,8 +9,15 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title><?php $dados['titulo'];?></title>
+    <title>Sweet & Healthy Cafe</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <?php 

@@ -1,0 +1,89 @@
+:root {
+    --color-green: #325d81; 
+    --color-green-dark: #2b506e;
+    
+    --color-template-text:#E6fffA;
+    --color-primary-title:;
+    --color-socondary-title:;
+    font-size: 60%;  
+}
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100vh;
+	font: 400 1.6rem Raleway, sans-serif;
+}
+
+#container {
+	width: 100vw;
+	background: var(--color-green);
+	color: var(--color-template-text);
+}
+
+#container .topo {
+	margin-top:-3px;
+	height: 3.5rem;
+	width: 15rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#container .topo:hover {
+	background: var(--color-green-dark);
+	cursor: pointer;
+}
+
+.template-top {
+	height: 4rem;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	grid-template-columns: repeat(9, 1fr);
+    grid-template-areas:
+    	'logo logo home receitas forum analise sobre login login';
+}
+
+header #logo_cafe {
+	grid-area: logo;
+	display: flex;
+	justify-content: center;
+	height: 3.5rem;
+	font: 400 2.2rem Yellowtail, cursive;
+}
+
+header #home {
+	grid-area: home;
+}
+
+header #receitas {
+	grid-area: receitas;
+}
+
+header #forum {
+	grid-area: forum;
+}
+
+header #analise_cafe {
+	grid-area: analise;
+}
+
+header #sobre {
+	grid-area: sobre;
+}
+
+header #login {
+	grid-area: login;
+	display: grid;
+	justify-content: flex-end;
+}
+
+#ban_container img {
+	height: 60vh;
+	width: 100vw;
+}

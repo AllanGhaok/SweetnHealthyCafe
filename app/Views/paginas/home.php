@@ -1,5 +1,1 @@
-<h1><?php echo $dados['titulo'];
-define('URL', dirname(__FILE__));
-
-echo '<br>'.URL;
-?></h1>
+<h1><?= $dados['titulo'];?></h1>
