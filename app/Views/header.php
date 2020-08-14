@@ -22,10 +22,7 @@
             Usuário novo?<br>Faça um cadastro!
         </div>
         <div class="topo" id="login">
-            <button><a href="">Fazer login</a></button>
+            <button>Fazer login</button>
         </div>
     </header>
-</div>
-<div id="ban_container">
-    <img src="img/bancafe.jpg">
 </div>

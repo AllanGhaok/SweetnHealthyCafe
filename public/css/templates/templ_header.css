@@ -1,0 +1,92 @@
+#container {
+	width: 100vw;
+	background: var(--color-blue);
+	color: var(--color-template-text);
+}
+
+#container .topo {
+	margin-top:-3px;
+	height: 3.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#container .menu:hover {
+	background: var(--color-blue-dark);
+	cursor: pointer;
+}
+
+.template-top {
+	height: 4rem;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	grid-template-columns: repeat(9, 1fr);
+    grid-template-areas:
+    	'logo logo home receitas forum analise sobre cadastro login';
+}
+
+header #logo_cafe {
+	grid-area: logo;
+	display: flex;
+	justify-content: center;
+	height: 3.5rem;
+	font: 400 2.2rem Yellowtail, cursive;
+}
+
+header #home {
+	grid-area: home;
+}
+
+header #receitas {
+	grid-area: receitas;
+}
+
+header #forum {
+	grid-area: forum;
+}
+
+header #analise_cafe {
+	grid-area: analise;
+}
+
+header #sobre {
+	grid-area: sobre;
+}
+
+header #cadastro {
+	grid-area: cadastro;
+	font-size: 1.2rem;
+	margin-top:-3px;
+	height: 3.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+header #cadastro:hover {
+	cursor: pointer;
+}
+
+header #login {
+	grid-area: login;
+}
+
+header #login button {
+	height: 3.3rem;
+	width: 10rem;
+	border: 0;
+	border-radius: .5rem;
+	background: var(--color-button-primary);
+	transition: 0.2s;
+}
+
+header #login button {
+	color: var(--color-template-text);
+}
+
+header #login button:hover {
+	cursor: pointer;
+	background: var(--color-button-secondary);
+}

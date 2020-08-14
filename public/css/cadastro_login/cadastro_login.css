@@ -1,0 +1,52 @@
+.cadastro_login_form {
+	margin-top: 5rem;
+	display: flex;
+	justify-content: center;
+}
+
+article .conteudo {
+	width: 30vw;
+	border: 1px solid #d9d9d9;
+	border-radius: .5rem;
+}
+
+article .card-body form input {
+	border-radius: .4rem;
+	height: 3rem;
+}
+
+article .titulo {
+	border-bottom: 1px solid #d9d9d9;
+	height: 4rem;
+	display: flex;
+	align-items: center;
+}
+
+article .titulo span {
+	margin-left: 1.3rem;
+}
+
+.form-group sup {
+	font-size: 5rem;
+}
+
+article .enviar_cadastro {
+	width: 10rem;
+	height: 3rem;
+	border: 1px solid #d9d9d9;
+	border-radius: .5rem;
+}
+
+article .botao_form {
+	display: flex;
+}
+
+.botao_form button {
+	align-content: center;
+}
+
+.botao_form span {
+	display: flex;
+	align-items: center;
+	margin-left: 2rem;
+}

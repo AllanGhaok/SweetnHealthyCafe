@@ -1,0 +1,12 @@
+#ban_container img {
+	height: 60vh;
+	width: 100vw;
+}
+
+article #carrossel {
+ 	background: black;
+ 	display: flex;
+ 	justify-content: center;
+	width: 100%;
+	height: 200px;
+ }

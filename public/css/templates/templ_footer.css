@@ -1,0 +1,101 @@
+.container {
+	padding: 0;
+	display: grid;	
+	justify-content: center;
+}
+
+.container .template-bottom {
+	width: 80vw;
+	height: 40rem;
+	margin-top: 3rem;
+	background-image: linear-gradient(
+		to right,
+		rgba(255,0,0,0),
+		rgba(200, 218, 234,1),
+		rgba(255,0,0,0)
+	);
+	/*background-image: linear-gradient(
+		to bottom,
+		rgba(255,0,0,0),
+		rgba(200, 218, 234,1)
+	); */
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(7, 1fr);
+	grid-template-areas: 
+		'linha'
+		'bottom_logo'
+		'menu'
+		'form-email'
+		'redes_s'
+		'social_icon'
+		'direitos';
+}
+
+footer #linha {
+	grid-area: linha;
+}
+
+footer #bottom_logo {
+	grid-area: bottom_logo;
+}
+
+footer #menu {
+	grid-area: menu;
+	margin-top: -3rem;
+}
+
+footer #form_footer {
+	grid-area: form-email;
+	margin-top: -3rem;
+}
+
+footer #redes_s {
+	grid-area: redes_s;
+	margin-top: 3rem;
+}
+
+footer #direitos {
+	grid-area: direitos;
+}
+
+footer #social_icon {
+	grid-area: social_icon;
+}
+
+.container footer #bottom_logo {
+	margin-top: -1.5rem;
+	font: 400 3.5rem Yellowtail, cursive;
+	color: white;
+	text-shadow: 2px 2px 4px #000;
+	display: flex;
+	justify-content: center;
+}
+
+.justify_center form {
+	margin-left: -13rem;
+}
+
+.justify_center label {
+	font-size: 2rem;
+}
+
+.justify_center form input {
+	width: 30rem;
+	height: 3rem;
+	border: 1px solid #d9d9d9;
+	border-radius: .5rem;
+}
+
+.justify_center form button {
+	width: 6rem;
+	height: 3rem;
+	border: 1px solid #d9d9d9;
+	border-radius: .5rem;
+}
+
+footer .justify_center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
