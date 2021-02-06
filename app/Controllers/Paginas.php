@@ -1,6 +1,8 @@
 <?php
 class Paginas extends Controller{
-	
+/* Observação:
+	O conteúdo dessa Classe diz respeito à pasta "view/páginas" apenas. Outras pastas (exemplo: usuários, posts) vão precisar de outra classe para trabalhar diretamente à elas.
+*/
 	public function index(){
 		$dados = [
 			'titulo'=> 'Sweet & Healthy Cafe - Página Inicial',
@@ -19,7 +21,7 @@ class Paginas extends Controller{
 
 	public function analise_cafe(){
 		$dados = [
-			'tituloPagina'=> 'Sobre nós',
+			'tituloPagina'=> 'Análise de café',
 		];
 
 		$this->view('paginas/analise_cafe',$dados);
@@ -27,7 +29,7 @@ class Paginas extends Controller{
 
 	public function receitas(){
 		$dados = [
-			'tituloPagina'=> 'Sobre nós',
+			'tituloPagina'=> 'Receitas',
 		];
 
 		$this->view('paginas/receitas',$dados);
@@ -35,7 +37,7 @@ class Paginas extends Controller{
 
 	public function forum(){
 		$dados = [
-			'tituloPagina'=> 'Sobre nós',
+			'tituloPagina'=> 'Fórum',
 		];
 
 		$this->view('posts/forum',$dados);
@@ -43,7 +45,7 @@ class Paginas extends Controller{
 
 	public function cadastro(){
 		$dados = [
-			'tituloPagina'=> 'Sobre nós',
+			'tituloPagina'=> 'Cadastro',
 		];
 
 		$this->view('usuarios/cadastro',$dados);
@@ -51,10 +53,9 @@ class Paginas extends Controller{
 
 	public function login(){
 		$dados = [
-			'tituloPagina'=> 'Sobre nós',
+			'tituloPagina'=> 'Login',
 		];
 
 		$this->view('usuarios/login',$dados);
 	}
 }
-

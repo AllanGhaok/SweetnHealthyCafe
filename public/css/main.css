@@ -10,7 +10,9 @@
     --color-primary-title:;
     --color-socondary-title:;
 
-    font-size: 60%;  
+    font-size: 60%;
+
+    /* cor das bordas #d9d9d9 */
 }
 
 * {
@@ -19,7 +21,19 @@
 	box-sizing: border-box;
 }
 
-html, body, footer {
+/* Tem alguma coisa errada com a largura (100vw) do site */
+
+html, body {
 	height: 100vh;
 	font: 400 1.6rem Raleway, sans-serif;
+    min-height: calc(100vh - 38.391px - 384px);
+    /*
+    Aqui eu estou falando que o valor minimo de altura é 100vh menos os valores do header e footer.
+    Isto é feito para que o footer sempre fique na parte de baixo da página.
+    */
+}
+
+footer {
+    font: 400 1.6rem Raleway, sans-serif;
+    /* O footer estava junto com o html e body, originalmente */
 }

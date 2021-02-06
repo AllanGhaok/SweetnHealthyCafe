@@ -1,25 +1,27 @@
 <div id="container">
     <header class="template-top">
         <div id="logo_cafe">
-            Sweet & Healthy Cafe
+            <a href="<?=URL?>"> Sweet & Healthy Cafe </a>
         </div>
         <div class="topo menu" id="home">
-            Home
+            <a href="<?=URL?>"> Home </a>
         </div>
         <div class="topo menu" id="receitas">
-            Receitas
+            <a href="<?=URL?>/paginas/receitas"> Receitas </a>
         </div>
         <div class="topo menu" id="forum">
-            Forum
+            <!-- Não vai funcionar pq ainda não foi feito uma classe chamada Posts -->
+            <a href="<?=URL?>/posts/forum"> Forum </a>
         </div>
         <div class="topo menu" id="analise_cafe">
-            Análises de Café
+            <a href="<?=URL?>/paginas/analise_cafe"> Análises de Café </a>
         </div>
         <div class="topo menu" id="sobre">
-            Sobre nós
+            <a href="<?=URL?>/paginas/sobre"> Sobre nós </a>
         </div>
         <div id="cadastro">
-            Usuário novo?<br>Faça um cadastro!
+            <!-- Não vai funcionar pq ainda não tem conteúdo dentro da classe chamada Usuarios -->
+            <a href="<?=URL?>/usuarios/cadastro"> Usuário novo?<br>Faça um cadastro! </a>
         </div>
         <div class="topo" id="login">
             <button>Fazer login</button>

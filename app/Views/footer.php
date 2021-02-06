@@ -26,7 +26,7 @@
 			<a href="#" class="fa fa-vimeo"></a>
 		</div>
 		<center id="direitos">
-			<small>Copyright &COPY; <?= date('Y')?> Sweet & Healthy Cafe - Todos os direitos reservados<br>
+			<small>Copyright &COPY; 2020 - <?= date('Y')?> Sweet & Healthy Cafe - Todos os direitos reservados<br>
 			CNPJ 00.000.000/0001-00</small>
 		</center>
 	</footer>	

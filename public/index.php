@@ -27,13 +27,26 @@
     
 </head>
 <body>
-    <?php 
-        include '../app/Views/header.php';
-        $rota = new Rota();
-        include '../app/Views/footer.php';
-    ?>
+    
+    <?php include '../app/Views/header.php'; ?>
+    <main> <?php $rota = new Rota(); ?> </main>
+    <?php include '../app/Views/footer.php'; ?> 
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+<!-- NOTAÇÕES GERAIS -->
+
+<!-- Problemas não resolvidos:
+    -Arrumar a posição do footer.
+    Já tentei arrumar com flex: shrink, tamanho em porcentagem (vh) e posicionamento.
+
+    -Arrumar margem à direita de cerca de 2mm que pega a página inteira.
+-->
+
+<!-- O que fazer agora:
+    Tentar colocar os retangulo no home. Obs: esses retangulos vão apaarecer o tumbl miniatura das ultimas receitas, a idéia é de colocar 4 receitas acima e 4 abaixo.
+-->

@@ -1,12 +1,58 @@
 #ban_container img {
-	height: 60vh;
-	width: 100vw;
+	height: 60vh; /* width: 100vw; tava ficando mais largo do que devia */
+	width: 100%; /* interessante saber que usando a porcentagem o mesmo não acontece */
+}
+
+article #texto_container {
+	width: 70vw;
+	margin: 5rem auto;
+	border: 2px solid #2b506e;
+	border-radius: .8rem;
+}
+
+article #texto_inicial {
+	font-size: 1.8rem;
+	padding: 2rem;
+	margin-bottom: 0;
 }
 
 article #carrossel {
- 	background: black;
- 	display: flex;
- 	justify-content: center;
-	width: 100%;
+ 	border: 2px solid #2b506e;
+	border-radius: .8rem;
+	display: flex;
+ 	justify-content: space-around;
+	width: 80%;
 	height: 200px;
- }
+	margin: 5rem auto;
+}
+
+/* article #ultimos_cafes_analisados {
+	justify-content: space-around;
+} */
+
+article #receitas_container {
+ 	width: 60vw;
+ 	margin: 0 auto 5rem auto;
+ 	border: 1px solid #000;
+	border-radius: .8rem;
+}
+
+article #titulo_receitas_recentes {
+	font-size: 2.5rem;
+	padding: 1rem; /* temporário */
+	border-bottom: 1px solid #000;
+	margin-bottom: 5rem;
+}
+
+article .tumb_container {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 5rem;
+}
+
+article .receitas {
+	height: 35rem;
+ 	width: 25rem;
+ 	border: 1px solid #000;
+ 	display: inline-block;
+}
