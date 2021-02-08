@@ -16,19 +16,33 @@ article #texto_inicial {
 	margin-bottom: 0;
 }
 
-article #carrossel {
- 	border: 2px solid #2b506e;
-	border-radius: .8rem;
-	display: flex;
- 	justify-content: space-around;
-	width: 80%;
-	height: 200px;
+article #carrossel { /* não precisa mais mexer (talvez a altura)*/
+ 	width: 80%;
+	height: 25rem;
 	margin: 5rem auto;
+	display: flex;
+	justify-content: space-around;
 }
 
-/* article #ultimos_cafes_analisados {
-	justify-content: space-around;
-} */
+article .ultimos_cafes_analisados {
+	width: 194px;
+	height: 25rem;
+}
+
+#carrossel #teste :hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#carrossel .descricao {
+	font-weight: 700;
+	text-align: center;
+	padding: .5rem;
+}
+
+article .miniatura_cafe { /* tamanho da imagem do café */
+	width: 192px;
+	height: 192px;
+}
 
 article #receitas_container {
  	width: 60vw;

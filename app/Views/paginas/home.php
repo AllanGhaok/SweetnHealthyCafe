@@ -5,21 +5,42 @@
 	</div>
 
 	<div id="carrossel">
-		<!-- <div id="ultimos_cafes_analisados"> -->
-			<img src="<?=URL?>/img/capsula_cafe.png">
-			<img src="<?=URL?>/img/capsula_cafe.png">
-			<img src="<?=URL?>/img/capsula_cafe.png">
-			<img src="<?=URL?>/img/capsula_cafe.png">
-			<img src="<?=URL?>/img/capsula_cafe.png">
-			<img src="<?=URL?>/img/capsula_cafe.png">
-			<img src="<?=URL?>/img/capsula_cafe.png">
-		<!-- </div> -->
+		<div class="ultimos_cafes_analisados">
+			<div id="teste">
+			<img src="<?=URL?>/img/capsula_cafe.png" class="miniatura_cafe">
+			<div class="descricao">Analise -<br>Ristretto Italiano</div>
+			</div>
+		</div>
+		<div class="ultimos_cafes_analisados">
+			<img src="<?=URL?>/img/capsula_cafe.png" class="miniatura_cafe">
+			<div class="descricao">Analise -<br>Firenze Arpeggio</div>
+		</div>
+		<div class="ultimos_cafes_analisados">
+			<img src="<?=URL?>/img/capsula_cafe.png" class="miniatura_cafe">
+			<div class="descricao">Analise -<br>Venezia</div>
+		</div>
+		<div class="ultimos_cafes_analisados">
+			<img src="<?=URL?>/img/capsula_cafe.png" class="miniatura_cafe">
+			<div class="descricao">Analise -<br>Napoli</div>
+		</div>
+		<div class="ultimos_cafes_analisados">
+			<img src="<?=URL?>/img/capsula_cafe.png" class="miniatura_cafe">
+			<div class="descricao">Analise -<br>Indonesia</div>
+		</div>
+		<div class="ultimos_cafes_analisados">
+			<img src="<?=URL?>/img/capsula_cafe.png" class="miniatura_cafe">
+			<div class="descricao">Analise -<br>Colombia</div>
+		</div>
+		<div class="ultimos_cafes_analisados">
+			<img src="<?=URL?>/img/capsula_cafe.png" class="miniatura_cafe">
+			<div class="descricao">Analise -<br>Freddo Delicato</div>
+		</div>
 	</div>
 	<div id="texto_container">
 		<div id="img_text_central">
 			<img src="<?=URL?>/img/cafe1.jpg" style="width: 100%; height: 300px">
 		</div>
-		<p id="texto_inicial"> 
+		<p id="texto_inicial">
 			<!-- Texto temporário. O texto que virá aqui deve ser dinâmico, podendo trocar a qualquer momento, feito por uma postagem do adiministrador -->
 
 			<!-- Colocar algum texto quase que um resumo sobre a análise de algum café, onde pode mudar semanalmente (para atrair internautas à ver as outras analises -->
