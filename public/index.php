@@ -48,5 +48,5 @@
 -->
 
 <!-- O que fazer agora:
-    Tentar colocar os retangulo no home. Obs: esses retangulos vão apaarecer o tumbl miniatura das ultimas receitas, a idéia é de colocar 4 receitas acima e 4 abaixo.
+    Fazer o carrossel das capsulas. Obs: eu fiz um modelo que deu certo na página de forum. No momento eu estou tentando ver o que deu de errado no css do home.
 -->

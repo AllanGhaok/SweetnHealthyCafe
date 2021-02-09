@@ -5,35 +5,54 @@
 	</div>
 
 	<div id="carrossel">
-		<div class="ultimos_cafes_analisados">
-			<div id="teste">
-			<img src="<?=URL?>/img/capsula_cafe.png" class="miniatura_cafe">
-			<div class="descricao">Analise -<br>Ristretto Italiano</div>
+		<div class="card ultimos_cafes_analisados">
+			<img src="<?=URL?>/img/capsula_cafe.png" class="card-img-top miniatura_cafe">
+			<div class="card-body">
+				<div class="card-text descricao">Analise -<br>Ristretto Italiano</div>
 			</div>
+			<img src="<?=URL?>/img/star_rating_4.png" class="star_rating">
 		</div>
-		<div class="ultimos_cafes_analisados">
-			<img src="<?=URL?>/img/capsula_cafe.png" class="miniatura_cafe">
-			<div class="descricao">Analise -<br>Firenze Arpeggio</div>
+		<div class="card ultimos_cafes_analisados">
+			<img src="<?=URL?>/img/capsula_cafe.png" class="card-img-top miniatura_cafe">
+			<div class="card-body">
+				<div class="card-text descricao">Analise -<br>Firenze Arpeggio</div>
+			</div>
+			<img src="<?=URL?>/img/star_rating_4.png" class="star_rating">
 		</div>
-		<div class="ultimos_cafes_analisados">
-			<img src="<?=URL?>/img/capsula_cafe.png" class="miniatura_cafe">
-			<div class="descricao">Analise -<br>Venezia</div>
+		<div class="card ultimos_cafes_analisados">
+			<img src="<?=URL?>/img/capsula_cafe.png" class="card-img-top miniatura_cafe">
+			<div class="card-body">
+				<div class="card-text descricao">Analise -<br>Venezia</div>
+			</div>
+			<img src="<?=URL?>/img/star_rating_4.png" class="star_rating">
 		</div>
-		<div class="ultimos_cafes_analisados">
-			<img src="<?=URL?>/img/capsula_cafe.png" class="miniatura_cafe">
-			<div class="descricao">Analise -<br>Napoli</div>
+		<div class="card ultimos_cafes_analisados">
+			<img src="<?=URL?>/img/capsula_cafe.png" class="card-img-top miniatura_cafe">
+			<div class="card-body">
+				<div class="card-text descricao">Analise -<br>Napoli</div>
+			</div>
+			<img src="<?=URL?>/img/star_rating_4.png" class="star_rating">
 		</div>
-		<div class="ultimos_cafes_analisados">
-			<img src="<?=URL?>/img/capsula_cafe.png" class="miniatura_cafe">
-			<div class="descricao">Analise -<br>Indonesia</div>
+		<div class="card ultimos_cafes_analisados">
+			<img src="<?=URL?>/img/capsula_cafe.png" class="card-img-top miniatura_cafe">
+			<div class="card-body">
+				<div class="card-text descricao">Analise -<br>Indonesia</div>
+			</div>
+			<img src="<?=URL?>/img/star_rating_4.png" class="star_rating">
 		</div>
-		<div class="ultimos_cafes_analisados">
-			<img src="<?=URL?>/img/capsula_cafe.png" class="miniatura_cafe">
-			<div class="descricao">Analise -<br>Colombia</div>
+		<div class="card ultimos_cafes_analisados">
+			<img src="<?=URL?>/img/capsula_cafe.png" class="card-img-top miniatura_cafe">
+			<div class="card-body">
+				<div class="card-text descricao">Analise -<br>Colombia</div>
+			</div>
+			<img src="<?=URL?>/img/star_rating_4.png" class="star_rating">
 		</div>
-		<div class="ultimos_cafes_analisados">
-			<img src="<?=URL?>/img/capsula_cafe.png" class="miniatura_cafe">
-			<div class="descricao">Analise -<br>Freddo Delicato</div>
+		<div class="card ultimos_cafes_analisados">
+			<img src="<?=URL?>/img/capsula_cafe.png" class="card-img-top miniatura_cafe">
+			<div class="card-body">
+				<div class="card-text descricao">Analise -<br>Freddo Delicato</div>
+			</div>
+			<img src="<?=URL?>/img/star_rating_4.png" class="star_rating">
 		</div>
 	</div>
 	<div id="texto_container">

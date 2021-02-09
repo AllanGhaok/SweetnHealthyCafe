@@ -16,9 +16,9 @@ article #texto_inicial {
 	margin-bottom: 0;
 }
 
-article #carrossel { /* não precisa mais mexer (talvez a altura)*/
+article #carrossel { /* não precisa mais mexer (talvez a altura) */
  	width: 80%;
-	height: 25rem;
+	height: 30rem; /* como o tamanho da imagem está fixo, o que aumenta aqui é o espaço total do caption */
 	margin: 5rem auto;
 	display: flex;
 	justify-content: space-around;
@@ -26,22 +26,31 @@ article #carrossel { /* não precisa mais mexer (talvez a altura)*/
 
 article .ultimos_cafes_analisados {
 	width: 194px;
-	height: 25rem;
+	/* antes tava com 25rem de altura, mas tava limitando a altura total */
 }
 
-#carrossel #teste :hover {
+article .card {
+	padding: 0;
+}
+
+article .ultimos_cafes_analisados /* :hover */{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#carrossel .descricao {
+article #carrossel .descricao {
 	font-weight: 700;
 	text-align: center;
-	padding: .5rem;
+	justify-content: center;
 }
 
-article .miniatura_cafe { /* tamanho da imagem do café */
+article .miniatura_cafe { /* tamanho da imagem da capsula */
 	width: 192px;
 	height: 192px;
+}
+
+article .star_rating { /* tamanho da imagem de qualificação */
+	width: 192px;
+	padding: 1rem;
 }
 
 article #receitas_container {
